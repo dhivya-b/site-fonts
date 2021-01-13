@@ -1,0 +1,353 @@
+
+		body,*,*:before,*:after{
+
+			
+			box-sizing: border-box;
+
+		}
+		html,body{
+		font-family:"Times New Roman"; 
+			font-size:16px;
+			color:#474747;
+
+			
+
+}
+
+	h1,h2,h3,h4,h5,h6,.title{
+		font-family:helvetica;
+		text-transform: uppercase;
+		font-weight: bold;
+		margin:0 0 1em;
+		color:black;
+
+	}
+
+	h2{
+		font-size:1.6rem;
+	}
+
+	h3{
+		font-size:1.2rem ;
+	}
+	p{
+		line-height: 1.2em;
+	}
+		a{
+			text-decoration: none;
+
+		}
+
+		a:hover, a:visited, a:active{
+			text-decoration: none;
+		}
+
+		
+
+		
+		.clearfix:after{
+  			content: ".";
+ 			 visibility: hidden;
+  			display: block;
+ 			 height: 0;
+ 			 clear: both;
+}
+		/*==============HEADER=================
+		=======================================*/
+
+		.page-header{
+			/*border:1px solid blue;*/ 
+			border-top:5px solid grey;
+		}
+		div.main{
+			width:960px;
+			margin:0 auto;  /* to make the div centered position */
+		}
+
+
+
+		.page-header div.main{
+
+			position: relative;
+			font-family: "pacifico",cursive;
+			font-weight: normal;
+			font-size: 3em;
+			font-style: normal;
+			height: 100px;
+			/* width:90%; */
+			/* border:3px solid red; */
+			padding-bottom:10px;
+			padding-top:10px;
+			margin-top:25px;
+			
+
+		}
+
+		nav.navigation {
+			position: absolute;
+			/*border:2px solid green; */
+			font-family: "bebas-neue";
+			font-style: normal;
+			top:0;
+			right: 20px;
+			padding-right: 10px; 
+			/* margin:0 auto; */
+			 text-transform: uppercase;
+		}
+
+		.page-header h1{
+			position:absolute;
+			overflow:hidden;
+			top:-100%;
+			left:-100%;
+		}
+
+		.page-header nav li{
+			margin-right:1em;
+		}
+
+		.page-header nav li:last-child{
+			margin-right:0;
+		}
+
+	.page-header nav li a{
+			font-size: 13px;
+			color: grey;
+			font-weight: bold;
+			}
+
+.page-header nav li a em{
+			font-size: 18px; 
+			display: block;
+			color: black;
+			font-weight: bold;
+			}
+	
+
+		.float{
+			float:left;
+		}
+
+/*=====================================
+        FOOTER
+=====================================*/
+
+.copyright:before{
+	content: " ";
+	display: block;
+	height: 5px; 
+	background: 
+	 url(../image/pattern.jpg) 
+	left top repeat-x;
+	
+
+}
+
+.copyright{
+	border:1px solid transparent; 
+	background: lightgrey;
+	bottom:3em;
+	left:3em;
+	position:static;
+	height: 70px;
+	
+}
+
+div.content{
+/*	border:1px solid green; */
+	width:960px;
+/*	margin:0 auto; */
+	color:grey;
+	margin-top:20px;
+	margin-right:auto;
+	margin-left:auto;
+	margin-bottom: 0 ;
+
+}
+div.content em,span{
+	font-family: "Times New Roman";
+	color: black;
+}
+
+
+
+.copyright .patent{
+	float:right;	
+
+}
+
+small.patent a{
+	color: black;
+
+}
+
+/*=========================================
+			SECTION MAIN
+=========================================*/
+
+.section-content img{
+	display:block;
+}
+
+.section-main{
+/*	border:1px solid grey; */
+}
+
+.section-content{
+/*	border:1px solid pink; */
+	width: 960px;
+	height: 510px;
+	margin:0 auto;
+	background: lightgrey;
+	margin-bottom: 3em;
+}
+
+.section-content strong{
+	font-size: 1.2em;
+}
+
+/*============================================
+		SECTION PROJECTS
+============================================*/
+
+.projects-main{
+/*	border:1px solid red; */
+	height:250px;
+	margin-bottom: 3em;
+}
+
+.projects-content{
+/*	border:1px solid blue; */
+	width:960px;
+	margin:0 auto;
+
+}
+
+
+.latest {
+/*	border:1px solid pink;  */
+	width:30%;
+	margin-top:2em;
+	margin-right:30px;
+	margin-bottom: 2em;
+}
+
+.latest:last-child{
+	margin-right:1em;
+}
+
+.latest a{
+	color: black;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.projects-content  header > i{
+	float:left;
+	font-size: 2.5rem;
+	color: grey;
+	width:25%;
+}
+
+.projects-content  header > h3{
+	float:left;
+	width: 75%;
+}
+
+.projects-content footer > i{
+	float:left;
+	margin-right:10px;
+}
+
+.projects-content footer > h3{
+	float:left;
+	
+}
+
+
+
+/*=======================================
+		SECTION LATEST WORK
+======================================*/
+
+
+.latest-work{
+/*	border:1px solid red; */
+	height:550px;
+	margin-bottom: 3em;
+}
+
+.work-views{
+/*	border:1px solid blue; */
+	width:960px;
+	margin:0 auto;
+
+}
+
+.work-views figure > img{
+	width:100%;
+	height:150px;
+}
+
+
+.view {
+/*	border:1px solid pink;  */
+	width:20%;
+	margin-top:2em;
+	margin-right:45px;
+	margin-bottom: 1em;
+}
+
+.view a{
+	color: black;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+
+/*h4.brochure::before{
+	content:url(../image/search.png);
+	width:20%; */
+
+}
+
+/*======================================
+		SECTION DESIGN
+=====================================*/
+.design{
+	border:1px soild black;
+	margin-top:2em;
+	margin-bottom: 2em;
+
+}
+
+
+.pattern{
+	position: relative;
+/*	border:1px solid red; */
+	margin:0 auto;
+	width:960px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.pattern ::before{
+	position:absolute;
+	left:0;
+	right:0;
+	top:0;
+	content:" ";
+	display:block;
+	background: url(../image/pattern.jpg)left top repeat-x	 ;
+	height:40px;
+	width: 100%;
+	
+}
+
+.pattern h2
+{
+	display: inline;
+	background-color: white;
+}
+
+
